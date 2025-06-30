@@ -36,9 +36,10 @@ body {
     grid-template-rows: repeat(3, 1fr);
 }
 
-/* .menu-item {
+.menu-item {
     list-style-type: none;
-*/
+    padding: 5px;
+}
 
 #header {
     grid-row: 1 / 2; 

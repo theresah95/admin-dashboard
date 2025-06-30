@@ -6,7 +6,6 @@
 
 }
 
-
 #outer-container {
     display: grid;
     grid-template-columns: .5fr 2fr;
@@ -26,6 +25,12 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
+}
+
+.menu-item {
+    /** 
+    list-style-type: none;
+    **/
 }
 
 #header {

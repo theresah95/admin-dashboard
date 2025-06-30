@@ -3,3 +3,29 @@
     --secondary-color:	#a4c195;
 }
 
+
+#outer-container {
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* Borders for Testing Format */
+#sidebar, #header, #main-content {
+    border: 5px solid forestgreen;
+}
+
+#sidebar {
+    grid-row: 1 / -1; 
+    grid-column: 1 / 2;
+}
+
+#header {
+    grid-row: 1 / 2; 
+    grid-column: 2 / -1;
+}
+
+#main-content {
+    grid-row: 2 / -1;
+    grid-column: 2 / -1;
+}

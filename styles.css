@@ -9,15 +9,11 @@ html, body {
     height: 100%;
 }
 
-body {
-    min-height: 100%;
-}
-
 #outer-container {
     min-height: 100%;
     display: grid;
-    grid-template-columns: .5fr 2fr;
-    grid-template-rows: .5fr 2fr;
+    grid-template-columns: .25fr 1fr;
+    grid-template-rows: .25fr .75fr;
 
 }
 
@@ -36,9 +32,15 @@ body {
     grid-template-rows: repeat(3, 1fr);
 }
 
+#sidebar > h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .menu-item {
     list-style-type: none;
     padding: 5px;
+    text-align: left;
 }
 
 #header {

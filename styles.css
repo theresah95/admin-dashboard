@@ -23,6 +23,9 @@
     grid-column: 1 / 2;
     background-color: var(--primary-color);
     color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 #header {

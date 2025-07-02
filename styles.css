@@ -72,6 +72,7 @@ html, body {
 /* Search Bar*/
 #search {
     margin-top: 10px;
+    margin-left: 15px;
     height: 30px;
 }
 
@@ -88,6 +89,7 @@ html, body {
     align-items: start;
     justify-content: end;
     margin-top: 10px;
+    margin-right: 50px;
 }
 
 #user-info {

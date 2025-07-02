@@ -61,7 +61,7 @@ html, body {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
     border-bottom: 5px solid grey;
 }
 
@@ -150,7 +150,7 @@ html, body {
 .function-button {
     border-radius: 25px;
     padding: 15px;
-    margin: 5px;
+    margin-left: 25px;
     width: 100px;
     color: white;
     background-color: var(--primary-color);

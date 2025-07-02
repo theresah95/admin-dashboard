@@ -28,19 +28,20 @@
         </div>
             <!--Dashboard Header-->
             <div id="header">
-                <input id="search-bar" type="search" placeholder="Search...">
-                <button id="notification">Notification Button</button>
-                <div id="user-info"></div>
-                <div id="welcome-message">
-                    <div id="user-avatar"></div>
-                    <div id="user-greeting"><span>Hi there, </span></div>
-                    <div id="user-name"><span>User 1 (@user1)</span></div>
+                <div class="header-cell" id="search">
+                    <div id="search-icon">Search Icon</div>
+                    <input id="search-bar" type="text" placeholder="Search...">    
                 </div>
-                <div id="function-buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
+                <div class="header-cell" id="user-notif">
+                    <div id="notif">Notification Icon</div>
+                    <div id="user"> User's Name and Icon </div>
                 </div>
+                <div class="header-cell" id="user-greeting">
+                    <div id="profile-picture">Profile Picture</div>
+                    <span>Hi there,</span>
+                    <span>Username (@username)</span>
+                </div>
+                <div class="header-cell" id="user-buttons">cell 4</div>
             </div>
             <!--Dashboard Main Content-->
             <div id="main-content">

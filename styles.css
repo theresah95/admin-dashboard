@@ -125,12 +125,19 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-right: 50px;
 }
 
 .function-button {
-    border-radius: 15px;
-    padding: 12px;
-    margin: 10px
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 /* Main Content Section */

@@ -28,23 +28,33 @@
         </div>
             <!--Dashboard Header-->
             <div id="header">
+                <!--Search Bar-->
                 <div class="header-cell" id="search">
                     <div id="search-icon">Search Icon</div>
                     <input id="search-bar" type="text" placeholder="Search...">    
                 </div>
+                <!--Notification and User Settings-->
                 <div class="header-cell" id="user-notif">
                     <div id="notif">Notification Icon</div>
-                    <div id="user"> User's Name and Icon </div>
+                    <div id="user-info"> 
+                        <img id="small-icon" src="kitty.jpg" alt="Profile Picture">
+                        <span id="full-name">FirstName LastName</span>
+                    </div>
                 </div>
+                <!--User Greeting-->
                 <div class="header-cell" id="user-greeting">
-                    <img id="profile-picture" src="kitty.jpg" alt="Profile Picture">
+                    <img id="big-icon" src="kitty.jpg" alt="Profile Picture">
                     <div id="greeting">
                         <span>Hi there,</span>
                         <span>Username (@username)</span>
-                    </div>
-                    
+                    </div>  
                 </div>
-                <div class="header-cell" id="user-buttons">cell 4</div>
+                <!--User Buttons-->
+                <div class="header-cell" id="user-buttons">
+                    <button class="function-button">New</button>
+                    <button class="function-button">Upload</button>
+                    <button class="function-button">Share</button>
+                </div>
             </div>
             <!--Dashboard Main Content-->
             <div id="main-content">

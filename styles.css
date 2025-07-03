@@ -8,8 +8,8 @@
 }
 
 html, body {
-    height: 100%;
     margin: 0px;
+    height: 100%;
 }
 
 /*Outer Container*/
@@ -192,14 +192,8 @@ html, body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: var(--main-background-color);
-    padding-bottom: 30px;
 
 }
-/* Border for Grid Testing
-.content-container {
-    border: 10px solid brown;
-}
- */
 
 #your-projects {
     grid-row: 1 / 3;
@@ -254,15 +248,19 @@ p {
 #trending {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    display: flex; 
+    flex-direction: column;
     padding: 0px 25px;
+    
 }
 
 #trending-grid {
     display: grid; 
     background-color: white;
+    height: 250px;
 }
 
 .trending-card {
-
+    display: flex;
 }
 

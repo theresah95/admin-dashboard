@@ -129,15 +129,6 @@ html, body {
     padding-top: 10px;
 }
 
-/* #user-info {
-    display: flex;
-    align-items: start;
-    justify-content: end;
-} */
-
-/* #notification-bell {
-    align-self: center;
-} */
 
 #small-icon {
    border-radius: 50%;
@@ -148,6 +139,7 @@ html, body {
 }
 
 /* User Greeting */
+
 #greeting {
     display: flex;
     flex-direction: column;
@@ -259,6 +251,7 @@ p {
     display: grid; 
     background-color: white;
     height: 75%;
+    border-radius: 5px;
 }
 
 .trending-card {

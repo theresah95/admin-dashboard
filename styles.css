@@ -89,7 +89,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    border-bottom: 5px solid grey;
+    /*border-bottom: 5px solid grey;*/
 }
 
 /* All Header Cells in the Grid */
@@ -193,7 +193,7 @@ html, body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: lightgrey;
+    background-color: #F5F5F5;
 
 }
 /* Border for Grid Testing

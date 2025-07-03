@@ -7,6 +7,7 @@
 
 html, body {
     height: 100%;
+    margin: 0px;
 }
 
 /*Outer Container*/
@@ -208,7 +209,7 @@ html, body {
     grid-column: 1 / 2;
     display: flex;
     flex-direction: column;
-    padding: 0px 30px;
+    padding: 0px 25px;
 }
 
 #project-grid {
@@ -225,6 +226,7 @@ html, body {
     border-left: 5px solid var(--secondary-color);
     border-radius: 5px;
     background-color: white;
+    padding: 0px 15px;
 }
 
 p {

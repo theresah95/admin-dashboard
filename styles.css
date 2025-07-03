@@ -36,10 +36,6 @@ html, body {
     gap: 20px;
 }
 
-#sidebar > h1 {
-    font-size: 1em;
-}
-
 #sidebar > ul {
     margin: 0px 0px;
     padding: 0px 0px;
@@ -49,7 +45,7 @@ html, body {
     list-style-type: none;
     padding: 5px;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     justify-self: left;
 }

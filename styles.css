@@ -12,6 +12,10 @@ html, body {
     height: 100%;
 }
 
+p {
+    color: #808080;
+}
+
 /*Outer Container*/
 #outer-container {
     width: 100%;
@@ -213,8 +217,11 @@ html, body {
     padding: 0px 15px;
 }
 
-p {
-    color: #808080;
+.project-card-icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+
 }
 
 #announcements {

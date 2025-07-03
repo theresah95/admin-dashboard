@@ -232,18 +232,33 @@ p {
 
 #announcements {
     grid-area: 1 2 2 3;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
 }
 
 #announcements-grid {
     display: grid;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0px 20px;
 }
+
+#top-card, #middle-card {
+    border-bottom: 1px solid var(--main-background-color);
+    
+}
+
 
 #trending {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    padding: 0px 25px;
 }
 
 #trending-grid {
     display: grid; 
+    background-color: white;
 }
 

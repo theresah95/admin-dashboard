@@ -263,11 +263,27 @@ p {
 #trending-grid {
     display: grid; 
     background-color: white;
-    height: 75%;
     border-radius: 5px;
 }
 
 .trending-card {
-    display: flex;
+   display: flex;
+   margin: 15px 10px;
+   justify-content: left;
 }
+
+.trending-icon {
+    align-self: center;;
+}
+
+.trending-card-info > h4 {
+    margin: 1em 0px 0px 0px;
+}
+
+.trending-card-info > p {
+    margin: 2px;
+}
+
+
+
 

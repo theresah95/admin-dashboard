@@ -215,13 +215,20 @@ p {
     border-radius: 5px;
     background-color: white;
     padding: 0px 15px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-card-icons {
     display: flex;
     align-items: flex-end;
     justify-content: right;
+    margin-bottom: 20px;
+}
 
+.project-card-icons > img {
+    padding: 5px;
 }
 
 #announcements {

@@ -14,8 +14,11 @@ I used HTML, CSS, VS Code, and Google Chrome Developer Tools to create this webp
 
 The purpose of this webpage was to have hands-on practice with Intermediate HTML and CSS concepts. 
 
-## What I learned 
+## What I Practiced 
 
-I used CSS grid and flex to help with the arrangement of the elements on this page. I also tried out and learned how to use CSS variables, functions, custom properties, utilized and edited SVGs, used both relative and absolute units, and advanced selectors.
+ * CSS grid and flexbox
+ * CSS variables, functions, custom properties, advanced selectors
+ * SVGs - downloaded and edited styles
+ * relative and absolute units
 
 

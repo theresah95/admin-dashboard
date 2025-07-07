@@ -185,6 +185,7 @@ p {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: var(--main-background-color);
+    overflow: scroll;
 
 }
 
